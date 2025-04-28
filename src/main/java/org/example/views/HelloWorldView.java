@@ -25,7 +25,7 @@ public class HelloWorldView extends Composite<FlexLayout> {
 
   private FlexLayout self = getBoundComponent();
   private Button recordButton = new Button("Record", ButtonTheme.PRIMARY);
-  private Button uploadButton = new Button("Upload", ButtonTheme.GRAY); // New upload button
+  private Button uploadButton = new Button("Upload", ButtonTheme.GRAY); 
   Element audio = new Element("audio");
   private boolean isRecording = false;
 
